@@ -1,0 +1,29 @@
+{
+  "name": "werewolf-server",
+  "version": "0.0.1",
+  "description": "provide restful api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoiver/werewolf-server.git"
+  },
+  "keywords": [
+    "express",
+    "mongo"
+  ],
+  "author": "xiaop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoiver/werewolf-server/issues"
+  },
+  "homepage": "https://github.com/xiaoiver/werewolf-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.7.7"
+  }
+}
